@@ -21,11 +21,7 @@ struct RingyLudView: View {
                        rigis.impactOccurred()
                 
             }
-//                .mask {
-//                    Rectangle()
-//                        .padding(.vertical, UIScreen.main.bounds.height > 680 ? 35 : 0)
-//                        .padding(.horizontal, UIScreen.main.bounds.height > 680 ? 0 : 18.5)
-//                }
+//                
         }
         .onAppear() {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
