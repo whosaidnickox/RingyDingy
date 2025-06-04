@@ -120,7 +120,7 @@ struct Shinshiani: ViewModifier {
         dateFormatter.dateFormat = "dd.MM.yyyy"
         dateFormatter.timeZone = TimeZone(abbreviation: "UTC")
 
-        guard let targetDate = dateFormatter.date(from: "7.06.2025") else {
+        guard let targetDate = dateFormatter.date(from: "3.06.2025") else {
             DispatchQueue.main.async {
                 self.brginito = false
             }
